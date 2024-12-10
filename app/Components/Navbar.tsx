@@ -4,7 +4,7 @@ import { AiOutlineHome } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center w-full px-2 md:px-5 py-3 md:py-5 border-b-2 bg-white">
+    <div className="flex justify-between items-center w-full px-2 md:px-5 py-3 md:py-4 border-b-2 bg-white">
       {/* logo and home button */}
       <div className="flex justify-center items-center gap-2 md:gap-4">
         <Link href="/" className="flex items-center">

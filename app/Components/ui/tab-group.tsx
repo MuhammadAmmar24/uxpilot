@@ -12,7 +12,7 @@ const TabGroup = () => {
     >
        {/* <TabButton icon={"/diagrams.svg"} label="Diagrams" active={false} /> */}
        <div
-      className={`flex items-center gap-3 px-5 py-3 hover:bg-secondary rounded-full  cursor-pointer 
+      className={`flex items-center gap-3 px-5 py-3 hover:bg-gray-100 rounded-full  cursor-pointer 
       
       `}
     >

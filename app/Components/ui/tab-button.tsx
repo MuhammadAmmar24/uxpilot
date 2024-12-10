@@ -9,7 +9,7 @@ interface tabButtonInterface {
 const TabButton = ({ icon, label, active }: tabButtonInterface) => {
   return (
     <div
-      className={`flex items-center gap-3 px-5 py-3 bg-white hover:shadow-lg rounded-full shadow-md border cursor-pointer 
+      className={`flex items-center gap-3 px-5 py-3 bg-white hover:bg-gray-50 hover:shadow-lg rounded-full shadow-md border cursor-pointer 
       
       `}
     >

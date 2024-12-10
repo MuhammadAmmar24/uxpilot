@@ -2,6 +2,7 @@ import React from "react";
 import GenerationBar from "./GenerationBar";
 import Image from "next/image";
 import AddNewSection from "./AddNewSection";
+import ScreenOptions from "./ScreenOptions";
 
 export default function Screen() {
   return (
@@ -39,17 +40,8 @@ export default function Screen() {
             Edit
           </span>
 
-          <span>
-            {" "}
-            <Image
-              src={"/options.svg"}
-              alt="Profile"
-              width={20}
-              height={20}
-              priority
-              className="w-6 h-6  cursor-pointer rounded-full p-1 hover:bg-gray-200"
-            />
-          </span>
+          <ScreenOptions />
+
         </div>
 
         <div className="bg-[#C0C0C0] rounded-[4px]  h-full">
